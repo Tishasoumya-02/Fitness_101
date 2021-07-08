@@ -1,0 +1,1 @@
+// /* global react */ to make react global component when we want linter to ignore it
