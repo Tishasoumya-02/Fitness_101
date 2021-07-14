@@ -1,5 +1,9 @@
 body{
-    background-color: #0acaaad7;
+    background-color: white;
+}
+.navbar
+{
+    padding: 40px;
 }
 .icon
 {
@@ -8,6 +12,78 @@ body{
 }
 .navbar-brand
 {
-    font-family: 'Barriecito', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
     font-size: 40px;
 }
+body {
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    height: 300px;
+    width: 1000px;
+    display: flex;
+  }
+  
+  .card {
+      
+    display: flex;
+    height: 380px;
+    width: 1000px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+ .poses
+ {
+    padding-top: 50px;   
+     
+ }
+ .btn-dark:hover
+ {
+   background-color: white;
+   color: black;
+ }
+ .animate__animated.animate__fadeInDown
+ {
+  --animate-duration: 1s;
+ }
+  .btn-danger
+  {
+    align-self: center;
+  }
+  .animate__animated.animate__jello
+  {
+   --animate-duration:4s;
+   animation-iteration-count: infinite;
+  }
