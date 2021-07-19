@@ -1,0 +1,14 @@
+.blob
+{
+    position:absolute; width: 600px; height: 600px; left: -210px; top: -300px;
+}
+
+.navbar-brand
+{
+    font-family: 'Encode Sans SC', sans-serif;
+
+    font-size: 20px;
+}
+body{
+    background-color: #FCD8D4;
+}
